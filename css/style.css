@@ -1,19 +1,46 @@
-.big{
-    font-size: 60px;
-    background-color: deepskyblue;
-    border-radius: 20px;
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: hsl(195deg 81% 16%);
+}
+
+h1{
+    color: white;
+    padding: 50px;
     text-align: center;
+    font-size: 70px;
+}
+
+.riga{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.square{
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    line-height: 140px;
+    font-size: 25px;
+}
+
+.big{
+    background-color: hsl(346deg 85% 61%);
 }
 
 .medium{
-    font-size: 40px;
-    background-color: aqua;
-    border-radius: 20px;
-    text-align: end;
+    background-color: hsl(42deg 100% 70%);
 }
 
-.small{
-    font-size: 30px;
-    background-color: cornflowerblue;
-    border-radius: 20px;
+.smol{
+    background-color: hsl(164deg 90% 44%);
+}
+
+.numb{
+    background-color: hsl(195deg 81% 39%);
 }
