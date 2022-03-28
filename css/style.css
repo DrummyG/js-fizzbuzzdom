@@ -1,0 +1,19 @@
+.big{
+    font-size: 60px;
+    background-color: deepskyblue;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.medium{
+    font-size: 40px;
+    background-color: aqua;
+    border-radius: 20px;
+    text-align: end;
+}
+
+.small{
+    font-size: 30px;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
